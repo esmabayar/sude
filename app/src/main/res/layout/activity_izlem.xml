@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E90FF"
+    tools:context=".IzlemActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="780dp"
+        android:layout_height="181dp"
+        android:background="@drawable/text_kullanci"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="26dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="HASTA BİLGİLERİ"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/text_kullanci"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="50dp"
+                    android:text="HASTA"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="YAŞ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="CİNSİYET"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="KAN GRUBU"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="YATIŞ GÜNÜ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="YATAK NO"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtHasta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtYas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtCinsiyet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtKanGrubu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtYatisGünü"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtYatakNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="YAPILAN AMELİYAT"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtYapilanAmeliyat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="POSTOP GÜNÜ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPostopGünü"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txttani"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="TANI"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTani"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="225dp">
+
+
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="922dp"
+        tools:layout_editor_absoluteY="221dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnYasamsalBulgu"
+                android:layout_width="190dp"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/table_giris"
+                android:drawableTop="@mipmap/kalp_foreground"
+                android:paddingTop="5dp"
+                android:text="YAŞAMSAL BULGULAR"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnKanSekeri"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/table_giris"
+                android:drawableTop="@mipmap/kan_foreground"
+                android:paddingTop="5dp"
+                android:text="KAN ŞEKERİ"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnSolunumBilgileri"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/table_giris"
+                android:drawableTop="@mipmap/akciger_foreground"
+                android:paddingTop="5dp"
+                android:text="SOLUNUM BİLGİLERİ"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnIlacInfuzyonlari"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/table_giris"
+                android:drawableTop="@mipmap/ilac_foreground"
+                android:paddingTop="5dp"
+                android:text="İLAÇ İNFÜZYONLARI"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAldigiCikardigi"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="ALDIĞI-ÇIKARDIĞI TAKİBİ"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnTedavi"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="TEDAVİ"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDoktorNotlari"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="DOKTOR NOTLARI"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnGlaskowSkalasi"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="GLASKOW SKALASI"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnGuvenlikOnlemleri"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:text="TEMEL GÜVENLİK ÖNLEMLERİ"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnBakim"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:text="BAKIM"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnKisitlamaIhtiyaci"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:text="KISITLAMA İHTİYACI"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnIzalasyon"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:text="İZOLASYON"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAlerjiDurumu"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="ALERJİ DURUMU"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnDusmeRiski"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="DÜŞME RİSKİ"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnGirisimler"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="GİRİŞİMLER"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnBasiYarasi"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="BASI YARASI"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnHemsireNotu"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="HEMSİRE NOTU"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCalısanHemsireler"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="ÇALIŞAN HEMSİRELER"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:text="PROGRESS"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</android.support.constraint.ConstraintLayout>

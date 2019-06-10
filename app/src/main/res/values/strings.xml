@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hasta İzlem</string>
+    <array name="yatakno">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="kangrubu">
+        <item>A</item>
+        <item>B</item>
+        <item>0</item>
+        <item>AB</item>
+    </array>
+</resources>
